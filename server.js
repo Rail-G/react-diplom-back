@@ -42,7 +42,7 @@ const fortune = (ctx, body = null, status = 200) => {
 }
 
 const app = new Koa();
-app.use(cors({origin: 'http://localhost:5173'}));
+app.use(cors({origin: 'https://rail-g.github.io'}));
 app.use(koaBody({
     json: true
 }));
